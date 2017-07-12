@@ -1,0 +1,245 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+
+body {
+    width: 100%;
+    font-size: 14px;
+}
+
+div {
+    word-break: break-all;
+}
+
+/*网页主题标准*/
+#top_banner {
+    width: 100%;
+    height: 130px;
+    background-color: #ffffff;
+}
+
+#top_picture_div {
+    width: 1000px;
+    height: 130px;
+    margin: 0 auto;
+    background: url("../imgs/home/top_banner.jpg") no-repeat;
+    background-position: center;
+}
+
+
+/*主题*/
+#EL_Banner {
+    width: 100%;
+    background-color: #e5d8c8;
+}
+
+#EL_Picture {
+    margin: 0 auto;
+    width: 1000px;
+    height: 460px;
+    background: url("../imgs/el/EL.png") no-repeat;
+}
+
+/*轮播展示图片*/
+#learn_window {
+    margin: 0 auto;
+    width: 1000px;
+    height: 1080px;
+    color: #939393;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+#img_list {
+    list-style: none;
+}
+#learningPicture {
+    height: 720px;
+    /*padding: 40px;*/
+}
+
+#lp_window {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#position_div {
+    position: absolute;
+    width: 1000px;
+    height: 680px;
+    margin: 0 auto;
+}
+
+#lp_block1 {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+#position_div2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*展示图片的大小尺寸*/
+.learning_pictures {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute; /*图片的锚*/
+}
+
+.learning_picture {
+    width: 100%;
+    height: 100%;
+    position: relative; /*设置图片定位，并且不占位*/
+    top: 0px; /*图片与边框的定位标准*/
+    left: 0px;
+}
+
+#arrow_prev_div {
+    position: relative;
+    width: 40px;
+    height: 80px;
+    left: 40px;
+    top: 260px;
+}
+
+/*透明层*/
+.up_img {
+    position: absolute;
+    width: 50px;
+    height: 90px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+/*上一张*/
+#arrow_prev {
+    width: 40px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#arrow_next_div {
+    position: relative;
+    width: 40px;
+    height: 80px;
+    top: 180px;
+    right: -920px;
+}
+
+/*下一张*/
+#arrow_next {
+    width: 40px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#lp_block2 {
+    width: 600px;
+    height: 40px;
+    float: right;
+    padding: 20px;
+    clear: both;
+}
+
+#page_list_div {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.page {
+
+}
+
+.button_icon {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: solid 1px #cbcbcb;
+    color: #939393;
+}
+
+#button1{
+    border: solid 2px #97bafd;
+}
+#learningInfo {
+    width: 1000px;
+    height: 240px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+.paragraph {
+    text-indent: 2em;
+    text-align: justify;
+    color: #6d6d6d;
+    padding-bottom: 40px;
+}
+
+/*底部联系信息*/
+#bottom_banner {
+    width: 100%;
+    height: 110px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #434343;
+}
+
+#bottom_picture {
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+#bottom_icon {
+    display: inline-block;
+    width: 200px;
+    height: 110px;
+}
+
+#bottom_icon1 {
+    width: 100%;
+}
+
+#bottom_icon2 {
+    width: 100%;
+}
+
+#bottom_info {
+    display: inline-block;
+    width: 500px;
+    height: 110px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 200px;
+}
+
+#bottom_info > p {
+    color: #b1b1b1;
+    line-height: 1.5;
+}
+
+.bottom_info_president {
+    display: inline-block;
+    text-align: left;
+    width: 320px;
+}
+
+

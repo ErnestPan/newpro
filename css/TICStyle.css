@@ -1,0 +1,685 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+
+body {
+    width: 100%;
+    font-size: 14px;
+}
+
+div {
+    word-break: break-all;
+}
+
+/*网页主题标准*/
+#top_banner {
+    width: 100%;
+    height: 130px;
+    background-color: #ffffff;
+}
+
+#top_picture_div {
+    width: 1000px;
+    height: 130px;
+    margin: 0 auto;
+    background: url("../imgs/home/top_banner.jpg") no-repeat;
+    background-position: center;
+}
+
+/*顶部导航栏*/
+#direction {
+    width: 100%;
+    background-color: #1568ac;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 15px;
+
+}
+
+#direction_block {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#forward_pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    line-height: 2.0;
+    list-style: none;
+}
+
+.keywords {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.keywords > a {
+    text-decoration: none;
+}
+
+.keywords:hover {
+    background-color: #eeeeee;
+    color: #5c5c5c;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #5b5b5b;
+}
+
+a:active {
+    color: #9a9a9a;
+}
+
+/*主题*/
+#tic_Banner {
+    width: 100%;
+    background-color: #e5d8c8;
+}
+
+#tic_Picture {
+    margin: 0 auto;
+    width: 1000px;
+    height: 460px;
+    background: url("../imgs/tic/tic.png") no-repeat;
+}
+
+/*新任教师*/
+#recruitTeacher {
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    color: #5c5c5c;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#rt_title {
+    width: 1000px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#rt_title_words {
+    width: 520px;
+}
+
+#rt_title_block {
+    width: 480px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+#teachers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1000px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.teacher {
+    width: 320px;
+    height: 250px;
+}
+
+#teachInfo {
+    padding: 60px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.paragragh {
+    padding-bottom: 20px;
+    color: #5c5c5c;
+}
+
+/*感谢信*/
+#testimonials {
+    background-color: #1568ac;
+    width: 100%;
+    height: 660px;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+#testimonials_title_div {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 60px;
+}
+
+#testimonials_title_words {
+    width: 200px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#testimonials_title_block {
+    background-color: #ffffff;
+    width: 760px;
+    height: 20px;
+}
+
+/*推荐信*/
+#testimonials_info {
+    margin: 0 auto;
+    width: 980px;
+    height: 425px;
+    padding: 10px;
+    color: #302f2d;
+    background-color: #ffffff;
+}
+
+#tl_img_div {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.tl_img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#letter1 {
+    display: block;
+}
+
+/*美中国际教育*/
+#GreatChinaIE {
+    width: 1000px;
+    margin: 0 auto;
+    height: 725px;
+    padding-top: 100px;
+    font-size: 15px;
+}
+
+#gcie_title {
+    width: 1000px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 50px;
+}
+
+#gcie_title_words {
+    color: #1568ac;
+    width: 540px;
+}
+
+#gcie_title_block {
+    width: 460px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+.gcie_block {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.gcie_title2 {
+    font-size: 20px;
+}
+
+.paragragh {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+#businessList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1000px;
+    justify-content: space-around;
+}
+
+#businessList > li {
+    list-style: none;
+    flex-basis: 300px;
+}
+
+/*七中万达学校*/
+#qzwdSchool {
+    width: 100%;
+    height: 980px;
+    margin: 0 auto;
+    background-color: #f4f1ec;
+    padding-top: 100px;
+}
+
+#qzwd_title {
+    margin: 0 auto;
+    width: 1000px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 50px;
+}
+
+#qzwd_title_words {
+    color: #1568ac;
+    width: 360px;
+}
+
+#qzwd_title_block {
+    width: 640px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+/*图片展示*/
+#picture_show {
+    width: 100%;
+    height: 820px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f4f1ec;
+}
+
+#q_d_window {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#position_div {
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#q_d_block1 {
+    position: relative;
+    width: 1000px;
+    height: 660px;
+    background-color: #ffffff;
+    margin-bottom: 40px;
+}
+
+#position_div2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*展示图片的大小尺寸*/
+.school_imgs {
+    width: 1000px;
+    height: 660px;
+    margin: 0 auto;
+    position: absolute; /*图片的锚*/
+}
+
+.school_img {
+    width: 100%;
+    height: 100%;
+    position: relative; /*设置图片定位，并且不占位*/
+    top: 0px; /*图片与边框的定位标准*/
+    left: 0px;
+}
+
+#arrow_prev_div {
+    position: relative;
+    width: 40px;
+    height: 660px;
+    left: 40px;
+    top: 260px;
+}
+
+/*透明层*/
+.up_img {
+    position: absolute;
+    width: 50px;
+    height: 90px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+/*上一张*/
+#arrow_prev {
+    width: 40px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#arrow_next_div {
+    position: relative;
+    width: 40px;
+    height: 660px;
+    top: -400px;
+    right: -920px;
+}
+
+/*下一张*/
+#arrow_next {
+    width: 40px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+#q_d_block2 {
+    width: 1000px;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+#micro_img_div {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f4f1ec;
+}
+
+.micro_imgs {
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff;
+}
+
+.micro_imgs > img {
+    width: 100%;
+    height: 100%;
+}
+
+/*选择与优势*/
+#why {
+    width: 100%;
+    height: 1950px;
+    margin: 0 auto;
+    background-color: #1568ac;
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+#why_title_div {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 60px;
+}
+
+#why_title_words {
+    width: 800px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#why_title_block {
+    background-color: #ffffff;
+    width: 160px;
+    height: 20px;
+}
+
+#gcad_div {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+
+.gcad_block {
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.gcad_title2 {
+    font-size: 20px;
+}
+
+#gcActivity_div {
+    width: 1000px;
+    height: 355px;
+    margin: 0 auto;
+}
+
+#gcActivity {
+    width: 100%;
+    height: 100%;
+}
+
+#benefits_block_div {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#benefits_title_div {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 60px;
+}
+
+#benefits_title_words {
+    width: 460px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#benefits_title_block {
+    background-color: #ffffff;
+    width: 500px;
+    height: 20px;
+}
+
+#benefits_div {
+    height: 520px;
+    flex-basis: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.benefit {
+    width: 320px;
+    height: 250px;
+}
+
+#benefitsList {
+    padding: 22px;
+    padding-top: 60px;
+    font-size: 16px;
+}
+
+#benefitsList > li {
+    display: list-item;
+    line-height: 2.0;
+}
+
+/*津贴福利细节*/
+#details {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    font-size: 16px;
+    background-color: #f4f1ec;
+}
+
+#details_title {
+    margin: 0 auto;
+    width: 1000px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 50px;
+}
+
+#details_title_words {
+    color: #1568ac;
+    width: 340px;
+}
+
+#details_title_block {
+    width: 660px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+#subsidy_details {
+    width: 1000px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+#subsidy_details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1000px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.subsidy {
+    width: 220px;
+    height: 150px;
+}
+
+#details_info {
+    width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*追梦人*/
+#wawlf_Banner {
+    width: 100%;
+    height: 930px;
+}
+
+#wawlf_Picture {
+    width: 100%;
+    height: 933px;
+    background: url("../imgs/tic/wawlf.jpg") no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*要求*/
+#requirements {
+    width: 100%;
+    height: 270px;
+    background-color: #015f9a;
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#requirements_div {
+    width: 1100px;
+    height: 270px;
+    margin: 0 auto;
+}
+
+#requirementList {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#requirementList > li {
+    line-height: 2.0;
+    justify-content: space-around;
+}
+
+/*底部联系信息*/
+#bottom_banner {
+    width: 100%;
+    height: 110px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #434343;
+}
+
+#bottom_picture {
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+#bottom_icon {
+    display: inline-block;
+    width: 200px;
+    height: 110px;
+}
+
+#bottom_icon1 {
+    width: 100%;
+}
+
+#bottom_icon2 {
+    width: 100%;
+}
+
+#bottom_info {
+    display: inline-block;
+    width: 500px;
+    height: 110px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 200px;
+}
+
+#bottom_info > p {
+    color: #b1b1b1;
+    line-height: 1.5;
+}
+
+.bottom_info_president {
+    display: inline-block;
+    text-align: left;
+    width: 320px;
+    color: #b1b1b1;
+}
+
+
+
+

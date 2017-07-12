@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*顶部导航栏*/
+#direction {
+    width: 100%;
+    background-color: #1568ac;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+#direction_block {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#forward_pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    line-height: 2.0;
+    list-style: none;
+}
+
+.keywords {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.keywords > a {
+    text-decoration: none;
+}
+
+.keywords:hover {
+    background-color: #eeeeee;
+    color: #5c5c5c;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #5b5b5b;
+}
+
+a:active {
+    color: #9a9a9a;
+}

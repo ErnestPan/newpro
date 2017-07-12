@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+}
+
+body {
+    width: 100%;
+    font-size: 14px;
+}
+
+/*网页主题标准*/
+#top_banner {
+    width: 100%;
+    height: 130px;
+    background-color: #ffffff;
+}
+
+#top_picture_div {
+    width: 1000px;
+    height: 130px;
+    margin: 0 auto;
+    background: url("../imgs/home/top_banner.jpg") no-repeat;
+    background-position: center;
+}
+
+
+/*实习生安排*/
+#intership_placement_Banner {
+    width: 100%;
+    background-color: #e5d8c8;
+}
+
+#intership_placement_Picture {
+    margin: 0 auto;
+    width: 1000px;
+    height: 460px;
+    background: url("../imgs/intern/intership.png") no-repeat;
+}
+
+/*职业发展板块*/
+#career {
+    width: 1000px;
+    height: 1120px;
+    margin: 0 auto;
+    color: #5c5c5c;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.c_b_title_div {
+    width: 1000px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 40px;
+}
+
+#c_b_cdc_title_words {
+    width: 400px;
+}
+
+#c_b_cdc_title_block {
+    width: 600px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+.c_b_info_div {
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.paragragh {
+    line-height: 2.0;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+#c_b_wdwh_title_words {
+    width: 270px;
+}
+
+#c_b_wdwh_title_block {
+    width: 730px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+#c_b_info_chart {
+    width: 690px;
+    height: 410px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#degree_subjects_ratio {
+    width: 100%;
+    height: 100%;
+}
+
+/*数据展示板块*/
+#data {
+    width: 100%;
+    height: 1110px;
+    background-color: #f4f1ec;
+    color: #5c5c5c;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.data_block {
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.d_b_title_div {
+    width: 1000px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 80px;
+}
+
+#d_b_gie_title_words {
+    width: 780px;
+}
+
+#d_b_gie_title_block {
+    width: 220px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+#d_b_top100_title_words {
+    width: 760px;
+}
+
+#d_b_top100_title_block {
+    width: 240px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+.d_b_info_chart {
+    width: 670px;
+    height: 390px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#TOP100_data_chart {
+    width: 100%;
+    height: 100%;
+}
+
+#GIE_data_chart {
+    width: 100%;
+    height: 100%;
+}
+
+/*实习项目板块*/
+#program {
+    width: 1000px;
+    margin: 0 auto;
+    height: 1100px;
+    color: #5c5c5c;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.p_b_title_div {
+    width: 1000px;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 80px;
+}
+
+#p_b_ip_title_words {
+    width: 640px;
+}
+
+#p_b_ip_title_block {
+    width: 360px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+#p_b_wdwn_title_words {
+    width: 290px;
+}
+
+#p_b_wdwn_title_block {
+    width: 710px;
+    height: 20px;
+    background-color: #1568ac;
+}
+
+#successful_cases {
+    width: 620px;
+    margin: 0 auto;
+}
+
+#table_title p {
+    font-size: 20px;
+}
+
+#cases_table {
+    width: 600px;
+    height: 360px;
+    border: dashed 2px #5c5c5c;
+    padding-left: 20px;
+}
+
+#more_successful_cases {
+    width: 620px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+/*实习周期模型展示板块*/
+#intership_cycle {
+    width: 100%;
+    height: 1400px;
+    background-color: #1568ac;
+    color: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.i_c_block {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.i_c_loi_title_div {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-bottom: 100px;
+}
+
+#i_c_loi_title_words {
+    width: 380px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#i_c_loi_title_block {
+    background-color: #ffffff;
+    width: 580px;
+    height: 20px;
+}
+
+.loi_info_block img {
+    width: 390px;
+    height: 350px;
+}
+
+.loi_chart_block {
+    display: flex;
+    flex-basis: 1000px;
+    justify-content: space-around;
+
+}
+
+.loi_info {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.loi_info span {
+    border: solid 1px #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 2.0;
+}
+
+#i_c_hwwt_title_words {
+    width: 400px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#i_c_hwwt_title_block {
+    background-color: #ffffff;
+    width: 560px;
+    height: 20px;
+}
+
+.hwwt_info_block {
+    width: 490px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.hwwt_info_block img {
+    width: 490px;
+    height: 460px;
+}
+
+#slogan {
+    margin: 0 auto;
+    display: block;
+    width: 560px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #73c9ff;
+    padding-top: 60px;
+}
+
+/*底部联系信息*/
+#bottom_banner {
+    width: 100%;
+    height: 110px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #434343;
+}
+
+#bottom_picture {
+    width: 1000px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+#bottom_icon {
+    display: inline-block;
+    width: 200px;
+    height: 110px;
+}
+
+#bottom_icon1 {
+    width: 100%;
+}
+
+#bottom_icon2 {
+    width: 100%;
+}
+
+#bottom_info {
+    display: inline-block;
+    width: 500px;
+    height: 110px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 200px;
+}
+
+#bottom_info > p {
+    color: #b1b1b1;
+    line-height: 1.5;
+}
+
+.bottom_info_president {
+    display: inline-block;
+    text-align: left;
+    width: 320px;
+}
+
+
+
